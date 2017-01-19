@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">群体运动电子班牌</string>
+    <!--软件初始化默认信息，第一次用将不再使用-->
+    <string name="soft_versionId">1.0</string>
+    <string name="soft_class">1000000000006</string>
+    <string name="soft_grade">13</string>
+    <string name="soft_schoolId">3</string>
+    <!--硬件基本信息-->
+    <string name="hardware_schoolId">10001</string>
+    <string name="hardware_schoolName">棕北小学</string>
+    <string name="hardware_address">成都</string>
+    <!--班级简介导航栏-->
+    <string name="classInfoNa1">运动排名</string>
+    <string name="classInfoNa2">操行分</string>
+    <string name="classInfoNa3">相册</string>
+    <string name="classInfoNa4">正在上课</string>
+    <!--班级简介标题栏-->
+    <string name="classInfoTitle1">班级运动/活动度（前三名）</string>
+    <string name="classInfoTitle2">操行分</string>
+    <string name="classInfoTitle3">相册</string>
+    <string name="classInfoTitle4">正在上课的教师</string>
+    <!--按钮对应标题，除了班级简介-->
+    <string name="fragment_ClassSport">班级运动</string>
+    <string name="fragment_ClassSubTable">课程表</string>
+    <string name="fragment_CleanTable">值日表</string>
+    <string name="fragment_RedFlag">流动红旗</string>
+    <string name="fragment_News">新闻通知</string>
+    <!--新闻-->
+    <string name="news_Flag">通知公告:</string>
+    <!--班级运动-->
+
+    <string name="classSport_Tip">可左右拖动</string>
+    <string name="classSport_HistoryTit">班级运动历史详情(平均)</string>
+    <string name="classSport_btn1">周</string>
+    <string name="classSport_btn2">月</string>
+    <string name="classSport_btn3">年</string>
+    <string name="classSport_SportRankTit">今日班级学生运动情况</string>
+
+    <!--课程表-->
+    <string name="fragment_ClassSubTable_Name">我班课程表</string>
+
+    <!--运动情况判断标准-->
+    <string name="sportData_d1">目前您的运动情况还不足够，加油！（仅作参考）</string>
+    <string name="sportData_d2">目前您的运动情况属于低量运动，请继续保持运动！（仅作参考）</string>
+    <string name="sportData_d3">目前您的运动情况一般，可以再多做些运动，继续保持！（仅作参考）</string>
+    <string name="sportData_d4">太棒了！您今日的运动情况非常完美，未来一定有个好身体！继续坚持哦！（仅作参考）</string>
+    <string name="sportData_d5">亲，您今天的运动情况有些过度啦，可适量减少一点运动来保持健康的身体！（仅作参考）</string>
+
+    <!--睡眠情况判断标准-->
+    <string name="sleep_d1">您昨晚基本处于深度睡眠状态，休息的不错！（仅作参考）</string>
+    <string name="sleep_d2">您昨晚您的睡眠状况良好，非常棒！（仅作参考）</string>
+    <string name="sleep_d3">您昨晚基本处于浅睡眠状态，主要调节情绪和食物！（仅作参考）</string>
+
+</resources>

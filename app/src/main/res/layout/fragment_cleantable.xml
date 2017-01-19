@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#134e7c"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/myinformation_mainbackground"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/titilelogo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:textColor="#0080ff"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/fragment_CleanTable"
+        />
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:layout_width="900dp"
+        android:background="#f3f3f3f3"
+        android:layout_height="200dp">
+        <LinearLayout
+            android:layout_width="900dp"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_weight="1"
+                android:text="值日表"
+                android:gravity="center"
+                android:background="@drawable/news_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:text="星期一"
+                android:gravity="center"
+                android:background="@drawable/news_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:text="星期二"
+                android:gravity="center"
+                android:background="@drawable/news_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:text="星期三"
+                android:gravity="center"
+                android:background="@drawable/news_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:text="星期四"
+                android:gravity="center"
+                android:background="@drawable/news_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:text="星期五"
+                android:gravity="center"
+                android:background="@drawable/news_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <ListView
+            android:id="@+id/clean_table"
+            android:layout_alignParentBottom="true"
+            android:layout_width="900dp"
+            android:layout_height="160dp">
+        </ListView>
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:background="@drawable/cleantable_bp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:layout_width="900dp"
+        android:layout_height="250dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="80dp"
+            android:textSize="20sp"
+            android:text="暂无数据"/>
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="350dp"
+            android:textSize="20sp"
+            android:text="暂无数据"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

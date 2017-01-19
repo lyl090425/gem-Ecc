@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#134e7c"
+   >
+    <FrameLayout
+        android:id="@+id/classinfo_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+    <ImageView
+        android:onClick="onChangeFragment"
+        android:id="@+id/classinfo_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:layout_marginBottom="10dp"
+        android:layout_marginLeft="210dp"
+        android:background="@drawable/classinfo_no"/>
+    <TextView
+        android:id="@+id/classinfo_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="220dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:text="@string/classInfoNa1"/>
+
+    <ImageView
+        android:onClick="onChangeFragment"
+    android:id="@+id/classinfo_btn2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+    android:layout_marginLeft="360dp"
+        android:gravity="center"
+    android:background="@drawable/classinfo_no"/>
+    <TextView
+        android:id="@+id/classinfo_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="380dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:text="@string/classInfoNa2"/>
+    <ImageView
+        android:onClick="onChangeFragment"
+        android:id="@+id/classinfo_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="510dp"
+        android:background="@drawable/classinfo_no"/>
+
+    <TextView
+        android:id="@+id/classinfo_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="535dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:text="@string/classInfoNa3"/>
+
+    <ImageView
+        android:onClick="onChangeFragment"
+        android:id="@+id/classinfo_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="660dp"
+
+        android:background="@drawable/classinfo_no"/>
+
+    <TextView
+        android:id="@+id/classinfo_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="670dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:text="@string/classInfoNa4"/>
+
+
+
+</RelativeLayout>

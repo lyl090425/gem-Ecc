@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/classinfo_background2"
+    android:layout_height="match_parent"
+    android:id="@+id/ing">
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/classInfoTitle4"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+      android:layout_alignParentTop="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/classinfi_ing_dianshi2"
+        android:id="@+id/imageView6" />
+    <sprotecc.com.example.easyhealth.eh_sprotecc.Adapter.CircleImageView
+        android:id="@+id/ing_touxiang"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="370dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/myinformation_infpbackground"
+
+
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/classinfi_ing_dianshi1"
+        />
+    <TextView
+        android:id="@+id/ing_teachername"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="暂无"
+        android:textColor="#ff5809"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="180dp"
+
+        />
+
+    <WebView
+        android:id="@+id/ing_teacherinfo"
+        android:layout_width="300dp"
+        android:layout_height="260dp"
+        android:textSize="10sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+      />
+    <WebView
+        android:id="@+id/ing_subinfo"
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:textSize="10sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="55dp"
+
+         />
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#134e7c">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/myinformation_mainbackground" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/titilelogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/fragment_News"
+        android:textColor="#0080ff"
+        android:textSize="20sp"
+
+        />
+
+    <ImageView
+        android:layout_width="900dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/newsfragment_backgound" />
+
+    <RelativeLayout
+        android:layout_width="900dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp">
+
+        <ImageView
+            android:id="@+id/news_bnt1"
+            android:layout_width="450dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/newst1"></ImageView>
+
+        <TextView
+            android:id="@+id/news_btn11"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="学校新闻"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/news_bnt2"
+            android:layout_width="450dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/newst1">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/news_bnt22"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="班级新闻"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:visibility="visible"
+        android:id="@+id/news_re1"
+        android:layout_width="900dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp">
+
+    </ListView>
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/news_re2"
+        android:layout_width="900dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp">
+
+    </ListView>
+    <WebView
+        android:visibility="gone"
+        android:id="@+id/news_re3"
+        android:layout_width="900dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp">
+
+    </WebView>
+
+
+</RelativeLayout>

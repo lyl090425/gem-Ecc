@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/classinfo_background2"
+    android:layout_height="match_parent"
+    android:id="@+id/photo">
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/classInfoTitle3"/>
+    <RelativeLayout
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="800dp"
+        android:background="#ffffff"
+        android:layout_height="350dp">
+        <RelativeLayout
+            android:background="@drawable/photobackground"
+            android:id="@+id/photo_r1"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <HorizontalScrollView
+                android:layout_centerHorizontal="true"
+                android:layout_width="780dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_vertical"
+                android:scrollbars="none" >
+                <LinearLayout
+                    android:id="@+id/id_gallery"
+                    android:layout_width="780dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0080ff"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:text="本班班级相册"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/photo_r2"
+        android:visibility="gone"
+        android:layout_width="800dp"
+        android:background="@drawable/photobackground"
+        android:layout_height="350dp">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/photo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#0066cc"/>
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/photo_back"
+            android:background="@drawable/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="#d9ffff"
+            android:scrollbars="none" >
+            <LinearLayout
+                android:id="@+id/id_gallery1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

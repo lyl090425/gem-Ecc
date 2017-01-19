@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#134e7c">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/myinformation_mainbackground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/fragment_ClassSubTable"
+        android:textColor="#0080ff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/titilelogo" />
+
+    <RelativeLayout
+        android:id="@+id/classSub_SubList"
+        android:layout_width="900dp"
+        android:layout_height="520dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="#f3f3f3f3"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="900dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+           >
+
+            <RelativeLayout
+                android:background="@drawable/news_background"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="节次"/>
+                <TextView
+                    android:layout_marginLeft="90dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="星期"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/news_background"
+                android:gravity="center"
+                android:text="星期一" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/news_background"
+                android:gravity="center"
+                android:text="星期二" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/news_background"
+                android:gravity="center"
+                android:text="星期三" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/news_background"
+                android:gravity="center"
+                android:text="星期四" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/news_background"
+                android:gravity="center"
+                android:text="星期五" />
+        </LinearLayout>
+
+
+
+
+
+
+        <ListView
+            android:id="@+id/list_sub"
+            android:layout_width="900dp"
+            android:layout_height="500dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp">
+        </ListView>
+    </RelativeLayout>
+<!--科目简介-->
+    <RelativeLayout
+        android:id="@+id/classSub_SubInfo"
+        android:layout_width="900dp"
+        android:layout_height="420dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="#f3f3f3f3"
+        android:visibility="gone">
+
+    </RelativeLayout>
+</RelativeLayout>

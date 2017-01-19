@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#134e7c"
+    android:padding="8dp" >
+  <RelativeLayout
+      android:background="@drawable/photobackground"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:layout_width="800dp"
+      android:layout_height="600dp">
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:text="采集终端归属设置"
+        android:id="@+id/textView2"
+        />
+    <ListView
+        android:layout_alignParentBottom="true"
+     android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="200dp"
+        android:id="@+id/install_grade"
+
+        >
+
+    </ListView>
+
+    <ListView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/install_clazz"
+        >
+    </ListView>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="您选择的年级为："/>
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/install_grade_text_id"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="100dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/install_grade_text_name"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="100dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:id="@+id/install_clazz_text_id"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginRight="140dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="您选择的班级为："/>
+    <TextView
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/install_clazz_text_name"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="160dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        />
+    <Button
+        android:id="@+id/install_btn1"
+        android:onClick="yesOrNo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="确定"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="300dp"
+        />
+    <Button
+
+        android:onClick="yesOrNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="取消"
+        android:id="@+id/install_btn2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="400dp"
+        />
+  </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
